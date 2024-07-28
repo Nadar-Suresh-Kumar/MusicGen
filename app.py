@@ -3,7 +3,7 @@ import replicate
 import streamlit as st
 
 # Streamlit app
-st.title("Music Generation with Replicate API")
+st.title("Music Generation ")
 
 # Input box for the Replicate API token
 api_token = st.text_input("Enter your Replicate API Token", type="password")
